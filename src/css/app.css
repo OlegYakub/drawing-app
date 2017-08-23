@@ -1,0 +1,47 @@
+*{
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+#canvas{
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+  box-sizing: border-box;
+}
+
+.panel{
+  display: flex;
+  align-items: flex-end;
+  padding-left: 10px;
+}
+
+input{
+  padding: 5px 10px;
+  border: 1px solid #000;
+  margin-right: 10px;
+}
+
+.btn{
+  width: 270px;
+  background-color: #8B5DD7;
+  padding: 10px 0;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid transparent;
+  margin-right: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: .3s;
+}
+
+.btn:hover{
+  border: 1px solid #8B5DD7;
+  background-color:transparent;
+  color: #8B5DD7;
+}
